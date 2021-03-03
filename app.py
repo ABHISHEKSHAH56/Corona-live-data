@@ -1,5 +1,6 @@
 import requests
 from flask import Flask ,render_template, request
+from fun import *
 
 app= Flask(__name__)
 @app.route("/india")
